@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/default_wallpaper"
+    android:orientation="vertical">
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:id="@+id/conversation_recycle_view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" >
+        <ru.set66.operatorchat.ClickEditText
+            android:background="@drawable/msg_my_field"
+            android:paddingLeft="10dp"
+            android:id="@+id/etMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences|textMultiLine"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:hint="Введите сообщение"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/send_icon"
+            android:textSize="14sp"
+            >
+        </ru.set66.operatorchat.ClickEditText>
+    </LinearLayout>
+</LinearLayout>

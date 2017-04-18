@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/lSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:minHeight="70dp"
+        android:orientation="horizontal"
+        android:paddingLeft="50dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp">
+
+
+
+            <LinearLayout
+                android:id="@+id/llMessageR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/msg_my_field"
+                android:orientation="vertical"
+                android:padding="5dp"
+                >
+
+                <TextView
+                    android:id="@+id/tvMessageR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:paddingLeft="10dp"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+
+                    android:autoLink="phone|web"
+                   />
+
+                <TextView
+                    android:id="@+id/tvDateR"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="TextView"
+                    android:textStyle="italic"
+                    android:textColor="@android:color/black"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/lInbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:minHeight="70dp"
+        android:orientation="horizontal"
+
+        android:paddingLeft="5dp"
+        android:paddingRight="50dp"
+        android:paddingTop="5dp">
+
+            <LinearLayout
+                android:id="@+id/llMessageL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/msg_field"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/tvMessageL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:paddingLeft="10dp"
+                    android:autoLink="phone|web"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tvDateL"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:text="TextView"
+                    android:textColor="@android:color/black"
+                    android:textStyle="italic"
+                    android:textSize="12sp"
+                    android:paddingLeft="15dp"/>
+            </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

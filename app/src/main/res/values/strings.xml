@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">OperatorChat</string>
+    <string name="app_name">Оператор Чат</string>
+
+    <!-- Context menu -->
+    <string name="context_menu_delete_all">Удалить сообщения</string>
+    <string name="context_menu_call">Вызов на мобильный</string>
+    <string name="context_menu_copy">Копировать текст сообщения</string>
+    <string name="context_menu_delete">Удалить сообщение</string>
+    <string name="context_menu_header">Меню сообщения</string>
 </resources>
